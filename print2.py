@@ -1,0 +1,11 @@
+#python file consisting of 10 lines of code with print
+print("This is print statement 1")
+print("This is print statement 2")
+print("This is print statement 3")
+print("This is print statement 4")
+print("This is print statement 5")
+print("This is print statement 6")
+print("This is print statement 7")
+print("This is print statement 8")
+print("This is print statement 9")
+print("This is print statement 10")

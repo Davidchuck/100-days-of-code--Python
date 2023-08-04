@@ -1,0 +1,11 @@
+#python file consisting of 10 lines of code with print
+print("Once upon a time,")
+print("In a village far away,")
+print("A boy genius was born,")
+print("He grew up being humble and respectiful,")
+print("Enrolled to school at a young age,")
+print("he had brilliant minds and did well in class.")
+print("In the school of life we has also gifted,")
+print("Started business at an early age,")
+print("His love of technology was evident evident at a young age,")
+print("and today he codes.")
