@@ -1,7 +1,7 @@
 #given (p ∧ q) ∨ (¬p ∧ q) ∨ (¬p ∧ ¬q).
 
-p=False
-q=True
+p=True
+q=False
 
 var_a=p and q #(p ∧ q)
 var_b=(not p) and q #(¬p ∧ q)
