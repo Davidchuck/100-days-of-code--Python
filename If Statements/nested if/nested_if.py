@@ -1,6 +1,6 @@
 #codelab for nested ifs#
 #example 1
-'''
+
 weather="Rainy"
 status=1
 color="grey"
@@ -22,10 +22,10 @@ else:
     else:
         print("Look for something else to wear")
         
-'''
+
 #Second Example
 #Tea or coffee Decision
-''''
+
 coffee=1
 tea=1
 sugar=1
@@ -51,7 +51,7 @@ else:
             else:
                 print("You can have nescafe 3 in 1")
         else:
-            print("Include them in your next shopping")'''
+            print("Include them in your next shopping")
 
             
 #Example 3
