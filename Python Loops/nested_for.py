@@ -3,28 +3,28 @@
 pat=10
 
 #nested for() Incremental pattern
-'''for i in range(0, pat):
+for i in range(0, pat):
     for j in range (0, i+1):
         print("*", end="")
-    print()'''
+    print()
 
 #decreamental pattern
-'''for i in range(0,pat):
+for i in range(0,pat):
     for j in range(0, i-1):
         print("-", end="")
-    print()  '''
+    print()  
 
 #pat = 5 # You can adjust the number of rows as needed
 
-'''for i in range(pat, 0, -1):
+for i in range(pat, 0, -1):
        for j in range(i):
            print("*", end="")
-       print()'''
+       print()
 #intermediate complex example
 #case brushing your teeth everyday
 
 #Variables 
-'''week=7 #for()
+week=7 #for()
 toothbrush=1 #1 present, 0 not Absent
 toothpaste=1 #1 present, 0 not Absent
 bakingsoda=5 #To be used 5 times a week for()
@@ -46,7 +46,7 @@ for i in range(0, week):
             if(toothpaste==1 and toothbrush==1):
                 print("Go and brush your teeth")
                 break
-'''
+
 
 
 #Case study 3: Dish Washing
