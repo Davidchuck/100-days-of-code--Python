@@ -13,5 +13,4 @@ while (candidates<10):
         else:
             print("Sorry, we couldn\'t proceed with you.")
     else:
-        print("You did not do well in this interview.7
-         Best of luck next time")
+        print("You did not do well in this interview. Best of luck next time")
