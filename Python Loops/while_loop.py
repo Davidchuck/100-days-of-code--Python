@@ -1,4 +1,4 @@
-#Using while loops
+'''#Using while loops
 #Simple Example
 #Case study of glossary shoppping
 
@@ -24,7 +24,7 @@ while(budget<5000 and counter<=5):
     save=save+3000
     counter=counter+1
     print(save)
-    
+    '''
 
 #case 3 example
 #
