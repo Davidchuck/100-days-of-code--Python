@@ -44,7 +44,7 @@ try:
         final=dec_1 or dec_2
         print(final)
 
-    else
+    else:
         print("you are stuck at work")
 except:
     print("An error occured")
