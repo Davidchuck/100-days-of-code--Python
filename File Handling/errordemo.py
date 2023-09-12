@@ -9,7 +9,7 @@ soap=4
 books=15
 toothpaste=2
 
-if(toothpaste>1); #the semi colon will cause a syntax error since : should be used
+if(toothpaste>1): #the semi colon will cause a syntax error since : should be used
     print("Buy more bools")
 
 
