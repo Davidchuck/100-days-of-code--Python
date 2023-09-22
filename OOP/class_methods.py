@@ -37,6 +37,7 @@ new_person=person("David", 30, 232323, "Male")
 #calling the object methods
 print(new_person.getAge())
 print (new_person.getName())
+print(new_person)
 
 #case 2
 class cars:
