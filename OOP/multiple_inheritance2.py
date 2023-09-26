@@ -64,7 +64,7 @@ class Kitchen:
         
         return (self.dry or self.perish)
         
-'''
+
 #Base class 3
 class LivingRoom:
 
@@ -87,7 +87,7 @@ class LivingRoom:
         else:
             print("The living room is clean")
         return (self.dine or self.ent)
-'''
+
 #Derived class
 class Activity(House, Kitchen):
 
