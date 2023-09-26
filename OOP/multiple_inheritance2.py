@@ -9,10 +9,10 @@ class House:
 
     #constructor
     def __init__(self, grocery, electronics, toiletry, furniture):
-        self.grocery = grocery
-        self.toiletry = toiletry
-        self.electronics = electronics
-        self.furniture = furniture
+        self.grocery=grocery
+        self.toiletry=toiletry
+        self.electronics=electronics
+        self.furniture=furniture
 
     #method 1: grocery
     def getGrocery(self):
@@ -40,30 +40,29 @@ class House:
     
 #Base Class 2 : Kitchen Chores
 class Kitchen:
-
     #Constructor
     def __init__(self, perishable, drygrain):
-        self.perish = perishable
-        self.dry = drygrain
+        self.perishable = perishable
+        self.drygrain = drygrain
 
     #method 1: Arrangement (if statement)
     def Arrange(self):
-        perish = 25
-        dry = 45
-        item = input("Enter the item: ", )
-        item_2 = input("Enter the item: ", )
+        perishable=25
+        drygrain=45
+        item=int(input("Enter the item: ", ))
+        item_2=int(input("Enter the item: ", ))
         
 
         #If statement
-        if(item <= perish):
-           self.perish = print("Store in The Fridge")
-        elif(item_2 <= dry and item_2 != perish):
-            self.dry = print("Store in the cabinet")
+        if(item<=perishable):
+         self.perishable = print("Store in The Fridge")
+        elif(item_2 <= drygrain and item_2 != perishable):
+         self.drygrain = print("Store in the cabinet")
         else:
-            print("Store it in the grocery basket")
+         print("Store it in the grocery basket")    
         
-        return (self.dry or self.perish)
-        
+        return self.drygrain or self.perishable
+            
 
 #Base class 3
 class LivingRoom:
@@ -89,13 +88,13 @@ class LivingRoom:
         return (self.dine or self.ent)
 
 #Derived class
-class Activity(House, Kitchen):
+class Activity(House, Kitchen,LivingRoom):
 
     #define the constructor
     def __init__(self):
-        House.__init__(self, '','','','')
-        Kitchen.__init__(self, '','')
-        #LivingRoom.__init__(self, '','')
+        House.__init__(self, '', '', '', '')
+        Kitchen.__init__(self, '', '')
+        LivingRoom.__init__(self,'','')
 
     #method 1
     def shopped_items(self):
@@ -106,10 +105,10 @@ class Activity(House, Kitchen):
 
     #method 2
     def arrangement(self):
-        print(self.dry)
-        print(self.perish)
+        print(self.drygrain)
+        print(self.perishable)
 
-    #method 3
+     #method 3
     def activityDone(self):
         print(self.dine)
         print(self.ent)
@@ -118,5 +117,13 @@ class Activity(House, Kitchen):
 action_1 = Activity()
 
 #Call onto methods
-print(action_1.activityDone())
+print(action_1.getGrocery())
+print(action_1.getElectronics())
+print(action_1.getFurniture())
+print(action_1.getToiletry())
+print(action_1.Arrange())
+print(action_1.DoWipe())
+print(action_1.shopped_items())
+print(action_1.arrangement())
+
     
