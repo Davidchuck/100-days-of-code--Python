@@ -67,6 +67,6 @@ shopping=shopping()
 print(shopping.getbakery())
 print(shopping.getdetergent())
 print(shopping.getglocery())
-print (shopping.getlist())
 print(shopping.gettoiltry())
+print (shopping.getlist())
         
