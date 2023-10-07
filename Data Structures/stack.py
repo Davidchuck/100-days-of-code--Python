@@ -20,3 +20,5 @@ stack.append(8)
 #Uses the pop method
 print(stack.pop())
 print(stack)
+
+newstack=[]
