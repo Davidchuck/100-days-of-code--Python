@@ -29,4 +29,5 @@ class Employee:
        for employee in self.employees:
           print(employee)
 
-class NewSalary(employee):
+class NewSalary(Employee):
+   print(Employee.get_empid)

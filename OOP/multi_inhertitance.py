@@ -41,13 +41,10 @@ class Kitchen:
     def __init__(self):
         self.perishable = ""
         self.drygrain = ""
-
     #method 1: Arrangement (if statement)
-    def Arrange(self):
-        
+    def Arrange(self):        
         item = int(input("Enter the perishable item: "))
         item_2 = int(input("Enter the dry grain item: "))
-
         if item <= 25:
             self.perishable = "Store in The Fridge"
         elif item_2 <= 45:
@@ -108,6 +105,10 @@ action_1 = Activity()
 # #Call onto methods
 # print(action_1.activityDone())
 # Call methods
+action_1.getGrocery()
+action_1.getElectronics()
+action_1.getElectronics()
+action_1.getToiletry()
 action_1.shopped_items()
 action_1.arrangement()
 action_1.activityDone()
